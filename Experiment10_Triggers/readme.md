@@ -69,7 +69,9 @@ SELECT * FROM employee_log;
 - A new entry is added to the `employee_log` table each time a new record is inserted into the `employees` table.
 
 ### Output Got:
-![OUTPUT](image.png)
+![image](https://github.com/user-attachments/assets/1c37f1a0-306e-43f9-beb3-3c2125a957e7)
+
+
 ---
 
 ## 2. Write a trigger to prevent deletion of records from a sensitive table.
@@ -103,7 +105,8 @@ DELETE FROM sensitive_data WHERE record_id = 1;
 - If an attempt is made to delete a record from `sensitive_data`, an error message is raised, e.g., `ERROR: Deletion not allowed on this table.`
 
 ### Output Got:
-![OUTPUT](image-1.png)
+![image-1](https://github.com/user-attachments/assets/3ffa3872-5ef9-419c-b78d-1d74401744be)
+
 
 ---
 
@@ -155,10 +158,12 @@ SELECT product_id, name, created_at, last_modified FROM products;
 ### Output Got:
 * __Before Updating the record__
 
-![OUTPUT](./image-6.png)
-* __After Updating the record__
+![image-6](https://github.com/user-attachments/assets/ac86e195-670d-47a8-a4d1-64b6a940a025)
 
-![alt text](image-5.png)
+* __After Updating the record__
+![image-5](https://github.com/user-attachments/assets/0d6ae12f-be72-489d-ac83-8a279017e727)
+
+
 ---
 
 ## 4. Write a trigger to keep track of the number of updates made to a table.
@@ -208,12 +213,14 @@ SELECT * FROM audit_log;
 
 ### Output Got:
 * __First Update__
+![image-2](https://github.com/user-attachments/assets/0b971a0a-ca5a-4aed-8a55-3eb29f93b3f5)
 
-![alt text](image-2.png)
+
 
 * __Second Update__
+![image-3](https://github.com/user-attachments/assets/23e729fe-34aa-44da-a96e-5754761b5aa7)
 
-![alt text](image-3.png)
+
 ---
 
 ## 5. Write a trigger that checks a condition before allowing insertion into a table.
@@ -252,6 +259,7 @@ INSERT INTO employee6(employee_id, first_name, dept_no, salary) VALUES (1, 'Bob'
 - If the inserted salary in the `employees` table is below the condition (e.g., salary < 3000), the insert operation is blocked, and an error message is raised, such as: `ERROR: Salary below minimum threshold.`
 
 ### Output Got:
-![alt text](image-4.png)
+![image-4](https://github.com/user-attachments/assets/0a9266d3-b8a7-470c-9b7b-e5030cc6cc79)
+
 ## RESULT
 Thus, the PL/SQL trigger programs were written and executed successfully.
