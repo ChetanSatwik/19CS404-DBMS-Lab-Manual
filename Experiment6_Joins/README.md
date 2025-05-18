@@ -116,7 +116,8 @@ JOIN
 
 **Output:**
 
-![OUTPUT](./output1.png)
+![OU![output1](https://github.com/user-attachments/assets/b7d7b6ee-75d5-43f6-8118-35723154ea0e)
+
 
 **Question 2**
 ---
@@ -169,7 +170,8 @@ WHERE
 
 **Output:**
 
-![OUTPUT](./output2.png)
+
+![output2](https://github.com/user-attachments/assets/57d6dc2d-f5fa-48c8-a403-67ca23e7ebd9)
 
 **Question 3**
 ---
@@ -214,7 +216,8 @@ JOIN
 
 **Output:**
 
-![OUTPUT](./output3.png)
+![output3](https://github.com/user-attachments/assets/5589543b-fe7f-48e5-8976-02547a3a8008)
+
 
 **Question 4**
 ---
@@ -260,8 +263,9 @@ WHERE
 ```
 
 **Output:**
+![output4](https://github.com/user-attachments/assets/8b60052f-b129-452f-a31d-5d85a7b54b9f)
 
-![OUTPUT](./output4.png)
+
 
 **Question 5**
 ---
@@ -271,13 +275,14 @@ __PATIENTS TABLE:__
 
 __ATTRIBUTES - patient_id, first_name, last_name, date_of_birth, admission_date, discharge_date, doctor_id__
 
-![INPUT](./5Q1.png)
+![5Q1](https://github.com/user-attachments/assets/70797afc-6156-4290-a34a-0b9d07836099)
 
 __TEST_RESULT TABLES:__
 
 __ATTRIBUTES - result_id, patient_id, test_name, result, test_date__
 
-![OUTPUT](./5Q2.png)
+![5Q2](https://github.com/user-attachments/assets/370f4cf7-1618-4f8b-ab6e-945f4905af1c)
+
 #### Query
 ```sql
 SELECT 
@@ -297,17 +302,20 @@ WHERE
 
 **Output:**
 
-![OUTPUT](./output5.png)
+![output5](https://github.com/user-attachments/assets/2bf5f6cd-f91b-47d6-9f93-b3d915dbbb35)
+
 
 **Question 6**
 ---
 Write the SQL query that achieves the selection of the "cust_name" column from the "customer" table (aliased as "c") and the "commission" column from the "salesman" table (aliased as "s"), with a left join on the "salesman_id" column.
 
 __Customer Table__:
-![OUTPUT](./6Q1.png)
+![6Q1](https://github.com/user-attachments/assets/c5256c5e-6b12-4a3f-968f-284c8bd070ca)
+
 
 __Salesmen Table__:
-![OUTPUT](./6Q2.png)
+![6Q2](https://github.com/user-attachments/assets/54805e07-cce6-49b9-8ae1-4a50f37859a1)
+
 #### Query
 ```sql
 SELECT 
@@ -322,7 +330,8 @@ LEFT JOIN
 
 **Output:**
 
-![OUTPUT](./output6.png)
+![output6](https://github.com/user-attachments/assets/cf167ce2-72be-4a71-8a64-4d5cbea692c8)
+
 
 **Question 7**
 ---
@@ -359,7 +368,8 @@ WHERE patients.first_name = 'Alice';
 
 **Output:**
 
-![OUTPUT](./output7.png)
+
+![output7](https://github.com/user-attachments/assets/d1fb79d8-c39f-4cf6-b5b5-4e7613da7877)
 
 **Question 8**
 ---
@@ -410,7 +420,8 @@ ORDER BY
 
 **Output:**
 
-![OUTPUT](./output8.png)
+![output8](https://github.com/user-attachments/assets/7605b858-df68-4d24-9690-94affbdde5b5)
+
 
 **Question 9**
 ---
@@ -453,7 +464,8 @@ WHERE
 
 **Output:**
 
-![OUTPUT](./output9.png)
+![output9](https://github.com/user-attachments/assets/8237dd54-a40d-423a-bed3-a211805f02cb)
+
 
 **Question 10**
 ---
@@ -505,7 +517,8 @@ ORDER BY
 
 **Output:**
 
-![OUTPUT](./output10.png)
+![output10](https://github.com/user-attachments/assets/aa4952b3-7311-4ded-8749-9ac9235e2ab1)
+
 
 ## RESULT
 Thus, the SQL queries to implement different types of joins have been executed successfully.
